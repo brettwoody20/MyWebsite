@@ -1,0 +1,255 @@
+@font-face{
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+    font-family: Work Sans;
+}
+* {
+    margin: 0;
+    margin-top: 0;
+}
+header{
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0;
+}
+header h1 {
+    margin-left: 15px;
+}
+footer{
+    display: block;
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFDD0;
+}
+h1{
+    color: #FFFDD0;
+}
+h3{
+    color: #FFFDD0;
+}
+p{
+    font-family: Work Sans, arial;
+    font-size:16;
+}
+a{
+    font-size: 18;
+    color: white;
+}
+ul{
+    font-family: Work Sans, arial;
+}
+
+
+.navbar ul{
+    list-style: none;
+    align-self: right;
+    background-color: #FFFDD0;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    font-size: 20;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(214, 213, 178, 0.74);
+    border:3px solid #194a12;
+}
+.navbar li{
+    float: right;
+}
+
+main{
+    background-color: #C4A484;
+    color: #FAF9F6;
+}
+
+.box-r{
+
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border: 2px solid #1f1510;
+    max-width: 1200px;
+    height: fit-content;
+    max-height: 400px;
+    box-shadow: 5px 5px #194a12;
+    overflow: auto;
+}
+.box-r h3{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-r p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+.box-r ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+.box-l{
+
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border: 2px solid #1f1510;
+    max-width: 1200px;
+    height:fit-content;
+    max-height: 400px;
+    box-shadow: -5px 5px #194a12;
+    overflow: auto;
+}
+.box-l h3{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-l p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+.box-l ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+
+.box-c{
+    margin: 100px;
+
+
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border: 2px solid #1f1510;
+    box-shadow: -5px 5px #194a12;
+}
+.box-c h3{
+    text-align: center;
+}
+.box-c p{
+    text-align: left;
+    margin: 5px;
+}
+
+.containerlr{
+    margin: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerrl{
+    margin: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.containerlr-large{
+    margin: 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.cotainerrl-large{
+    margin: 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picContainer{
+    border: 5px solid black;
+    width: 20%;
+    height: 100%;
+}
+.picContainer:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+.picContainer:not(hover){
+    position: relative;
+    transform: scale(1);
+    z-index: 10;
+}
+.picContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+#bookList{
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border: 2px solid #1f1510;
+    max-width: 30%;
+    height: fit-content;
+    max-height: 400px;
+    box-shadow: 5px 5px #194a12;
+    z-index: 999;
+    overflow: hidden;
+}
+#bookList h3{
+    padding: 10px;
+}
+#bookList ul{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#bookList a{
+    color: white;
+}
+
+#pdfContainer{
+    background-image: url(images/angryimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin: 50px;
+    border: 2px solid #1f1510;
+    padding: 20px;
+    max-width: 800px;
+    height: 1000px;
+    box-shadow: 5px 5px #194a12;
+}
+#pdfContainer iframe{
+    width: 800px;
+    height: 1000px;
+}
+
