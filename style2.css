@@ -5,6 +5,7 @@
 * {
     margin: 0;
     margin-top: 0;
+    height: fit-content;
 }
 header{
     background-image: url(images/angryimg3.png);
@@ -252,4 +253,46 @@ main{
     width: 800px;
     height: 1000px;
 }
+
+.accordian {
+    padding: 20px;
+    width: fit-content;
+    max-width: 1200px;
+}
+
+.accordianItem {
+    padding: 5px;
+    height: fit-content;
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid #1f1510;
+}
+
+.accordianTitle {
+    padding: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.accordianTitle::after{
+    content: "+";
+    font-size: 40px;
+    margin-left: auto;
+}
+
+.active-header::after {
+    content: "-";
+}
+
+.accordianAnswer {
+    max-height: 0;
+    padding-left: 5px;
+    overflow: hidden;
+    transition: 1000ms ease max-height;
+}
+
+
 
